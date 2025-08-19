@@ -1,0 +1,37 @@
+{
+    "manifest_version": 3,
+    "name": "murfy",
+    "version": "0.1.3",
+    "description": "AI-powered email summaries with voice playback",
+    "action": {
+        "default_title": "sumurfy - AI Email Summarizer"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "https://mail.google.com/*",
+        "http://localhost:5001/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://mail.google.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "widget.css"
+            ],
+            "run_at": "document_idle",
+            "all_frames": false
+        }
+    ]
+}
