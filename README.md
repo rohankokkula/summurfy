@@ -5,6 +5,10 @@ A comprehensive tutorial for developers to build a Chrome extension that reads G
 
 
 
+https://github.com/user-attachments/assets/197aebfd-39b5-41d1-9210-6ef51a3b58c9
+
+
+
 
 ## 🎯 What We're Building
 
