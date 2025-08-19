@@ -12,7 +12,6 @@ A Chrome extension that:
 
 
 
-
 ## A. Setting up the flask server
 
 ### Step 1: Clone & Setup Python Environment
@@ -59,6 +58,7 @@ python server.py
 That's it! The extension automatically detects when you're viewing an email and provides instant audio summaries.
 
 ## 🔧 How It Works (Technical Flow)
+![flowchart](/assets/flow.png)
 
 ### 1. Email Detection & Extraction
 When you open a Gmail email, the extension automatically:
