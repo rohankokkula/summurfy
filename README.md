@@ -39,6 +39,8 @@ pip install -r requirements.txt
 
 ### Step 3: Getting the environment variables
 
+Rename `.env.example` to `.env` and get the keys from below links.
+
 - GROQ_API_KEY: https://console.groq.com/keys
 - MURF_API_KEY: https://murf.ai/api/api-keys
 
