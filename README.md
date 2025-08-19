@@ -42,6 +42,7 @@ pip install -r requirements.txt
 - GROQ_API_KEY: https://console.groq.com/keys
 - MURF_API_KEY: https://murf.ai/api/api-keys
 
+### Step 4: Starting the Python Server
 ```
 python server.py
 ```
