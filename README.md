@@ -2,6 +2,12 @@
 
 A comprehensive tutorial for developers to build a Chrome extension that reads Gmail emails, summarizes them using AI, and converts summaries to speech. 
 
+
+https://github.com/user-attachments/assets/a9c93937-bbdd-40c3-aaa3-6f47c54f86e9
+
+
+
+
 ## 🎯 What We're Building
 
 A Chrome extension that:
