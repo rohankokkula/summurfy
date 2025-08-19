@@ -55,7 +55,7 @@ python server.py
 1. Open Chrome and navigate to `chrome://extensions/`
 2. Enable "Developer mode" (toggle in top right)
 3. Click "Load unpacked" and select the `extension/` folder from this repository
-4. You'll see the "murfy" extension loaded
+4. You'll see the "summurfy" extension loaded
 
 ### Step 3: Test the Extension
 
